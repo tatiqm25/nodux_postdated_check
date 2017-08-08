@@ -1,0 +1,18 @@
+include MANIFEST.in
+include requirements.txt
+include *.json
+include *.md
+include *.py
+include *.txt
+recursive-include nodux_postdated_check *.css
+recursive-include nodux_postdated_check *.csv
+recursive-include nodux_postdated_check *.html
+recursive-include nodux_postdated_check *.ico
+recursive-include nodux_postdated_check *.js
+recursive-include nodux_postdated_check *.json
+recursive-include nodux_postdated_check *.md
+recursive-include nodux_postdated_check *.png
+recursive-include nodux_postdated_check *.py
+recursive-include nodux_postdated_check *.svg
+recursive-include nodux_postdated_check *.txt
+recursive-exclude nodux_postdated_check *.pyc
